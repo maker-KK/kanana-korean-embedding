@@ -156,6 +156,14 @@ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.kanana.embedding.plis
 - **한국어 MTEB**: 65.0 (같은 크기 모델 중 1위)
 - **라이선스**: Apache 2.0
 
+## 감사 (Acknowledgments)
+
+이 프로젝트는 [카카오(Kakao)](https://www.kakaocorp.com/)의 [Kanana](https://huggingface.co/kakaocorp) 모델 패밀리 덕분에 가능했습니다.
+
+카카오 팀이 고품질 한국어 임베딩 모델을 Apache 2.0 라이선스로 공개해주신 덕분에, 누구나 로컬에서 한국어 의미 검색을 구축할 수 있게 되었습니다. 🙏
+
+> **Kanana-Nano-2.1b-Embedding** by [kakaocorp](https://huggingface.co/kakaocorp/kanana-nano-2.1b-embedding) — 한국어 임베딩 벤치마크 1위, Apache 2.0
+
 ## 라이선스
 
 이 서버 코드는 MIT 라이선스입니다.
