@@ -1,0 +1,25 @@
+# Model weights (download from HuggingFace)
+model.safetensors
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+.gitattributes
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+venv/
+.venv/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
